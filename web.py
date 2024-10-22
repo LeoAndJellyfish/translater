@@ -47,7 +47,7 @@ if API_KEY:
 st.write("请输入要翻译的文本：")
 
 # 输入命令与待翻译文本
-command_text = st.text_input("请输入命令", "中英互译")
+command_text = st.text_input("请输入命令", "翻译为中文")
 src_text = st.text_area("输入文本")
 
 if st.button("翻译"):
